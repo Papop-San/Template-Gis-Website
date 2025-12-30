@@ -1,6 +1,12 @@
 # Nexjs + leaflet 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Install Envoriment
+```bash
+npm install
+```
+
+
 ## Getting Started
 
 First, run the development server:
@@ -13,6 +19,29 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+
+## Create Env File
+
+```bash
+#Server
+NEXT_PUBLIC_SERPER_API_URL=https://google.serper.dev/images
+NEXT_PUBLIC_SERPER_KEY=d276eec7c1fe8d94bc9c9d41cedb88d598d104b7
+
+NEXT_PUBLIC_FALLBACK_IMAGE=https://via.placeholder.com/400x300?text=No+Image
+NEXT_PUBLIC_LOADING_IMAGE=https://via.placeholder.com/400x300?text=Loading...
+
+NEXT_PUBLIC_OSM_TILE_URL=https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+
+NEXT_PUBLIC_LEAFLET_ICON=https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png
+NEXT_PUBLIC_LEAFLET_ICON_2X=https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png
+NEXT_PUBLIC_LEAFLET_SHADOW=https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png  
+```
+
+## URL 
+
+```bash
+web url: http://localhost:3000/ 
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
